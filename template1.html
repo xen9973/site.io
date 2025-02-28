@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Template 1 — Детали</title>
+  <!-- Подключаем Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+  <!-- Верхняя панель навигации -->
+  <header class="bg-gray-800 border-b border-gray-700 px-6 py-4 flex items-center justify-between">
+    <div class="text-xl font-bold">Мой Сайт</div>
+    <nav class="space-x-6">
+      <!-- Ссылка «Главная» вернёт нас к списку шаблонов -->
+      <a href="templates.html" class="text-gray-200 hover:text-white">Главная</a>
+      <a href="profile.html" class="text-gray-200 hover:text-white">Profile</a>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-white">Log In</a>
+    </nav>
+  </header>
+
+  <!-- Основной контент -->
+  <main class="max-w-3xl mx-auto p-6">
+    <h2 class="text-2xl font-bold mb-4">Template 1</h2>
+
+    <!-- Создатель шаблона -->
+    <div class="flex items-center mb-6">
+      <div>
+        <p class="font-semibold">
+          Создатель: <span class="text-blue-400">@creatorLogin</span>
+        </p>
+        <p class="text-gray-400 text-sm">Дата загрузки: 28.02.2025</p>
+      </div>
+    </div>
+
+    <!-- Скриншот и описание -->
+    <div class="flex flex-col md:flex-row md:space-x-6">
+      <img
+        src="images/template1-large.jpg"
+        alt="Template 1 Screenshot"
+        class="w-full md:w-1/2 h-auto object-cover rounded mb-4 md:mb-0"
+      />
+      <div class="md:w-1/2">
+        <p class="mb-4 text-gray-300 leading-relaxed">
+          Здесь можно разместить полное описание шаблона. Например, рассказать о функционале, особенностях дизайна, а также о том, как его настроить.  
+          Дополнительно: какие технологии используются, что именно нужно для запуска, и т.д.
+        </p>
+        <a
+          href="templates/template1.zip"
+          download
+          class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+        >
+          Скачать
+        </a>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
