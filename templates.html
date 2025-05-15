@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Список Шаблонов</title>
+  <!-- Подключаем Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Подключаем AOS CSS для анимаций при скролле -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+  <!-- Верхняя панель навигации с анимацией -->
+  <header class="bg-gray-800 border-b border-gray-700 px-6 py-4 flex items-center justify-between" data-aos="fade-down">
+    <div class="text-xl font-bold">Мой Сайт</div>
+    <nav class="space-x-6">
+      <a href="DownloadPage.html" class="text-gray-200 hover:text-white">Скачать программу</a>
+      <a href="profile.html" class="text-gray-200 hover:text-white">Profile</a>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-white">Log In</a>
+    </nav>
+  </header>
+
+  <!-- Контейнер с основным контентом -->
+  <div class="flex">
+    <!-- Основной контент (список шаблонов) -->
+    <main class="flex-1 p-6">
+      <h2 class="text-2xl font-bold mb-4" data-aos="fade-up">Список Шаблонов</h2>
+
+      <!-- Пример строки с шаблоном №1 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up">
+        <div>
+          <h3 class="text-lg font-semibold">Template 1</h3>
+          <p class="text-sm text-gray-400">Краткое описание первого шаблона.</p>
+          <!-- Ссылка на детальную страницу -->
+          <a href="template1.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <!-- Превью (миниатюра) справа -->
+          <img src="images/template1.jpg" alt="Preview Template 1" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template1.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+      <!-- Пример строки с шаблоном №2 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up" data-aos-delay="100">
+        <div>
+          <h3 class="text-lg font-semibold">Template 2</h3>
+          <p class="text-sm text-gray-400">Краткое описание второго шаблона.</p>
+          <a href="template2.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img src="images/template2.jpg" alt="Preview Template 2" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template2.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+      <!-- Пример строки с шаблоном №3 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up" data-aos-delay="200">
+        <div>
+          <h3 class="text-lg font-semibold">Template 3</h3>
+          <p class="text-sm text-gray-400">Краткое описание третьего шаблона.</p>
+          <a href="template3.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img src="images/template3.jpg" alt="Preview Template 3" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template3.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+      <!-- Пример строки с шаблоном №4 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up" data-aos-delay="300">
+        <div>
+          <h3 class="text-lg font-semibold">Template 4</h3>
+          <p class="text-sm text-gray-400">Краткое описание четвертого шаблона.</p>
+          <a href="template4.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img src="images/template4.jpg" alt="Preview Template 4" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template4.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+      <!-- Пример строки с шаблоном №5 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up" data-aos-delay="400">
+        <div>
+          <h3 class="text-lg font-semibold">Template 5</h3>
+          <p class="text-sm text-gray-400">Краткое описание пятого шаблона.</p>
+          <a href="template5.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img src="images/template5.jpg" alt="Preview Template 5" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template5.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+      <!-- Пример строки с шаблоном №6 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up" data-aos-delay="500">
+        <div>
+          <h3 class="text-lg font-semibold">Template 6</h3>
+          <p class="text-sm text-gray-400">Краткое описание шестого шаблона.</p>
+          <a href="template6.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img src="images/template6.jpg" alt="Preview Template 6" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template6.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+      <!-- Пример строки с шаблоном №7 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up" data-aos-delay="600">
+        <div>
+          <h3 class="text-lg font-semibold">Template 7</h3>
+          <p class="text-sm text-gray-400">Краткое описание шестого шаблона.</p>
+          <a href="template7.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img src="images/template7.jpg" alt="Preview Template 7" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template7.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+      <!-- Пример строки с шаблоном №8 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up" data-aos-delay="700">
+        <div>
+          <h3 class="text-lg font-semibold">Template 8</h3>
+          <p class="text-sm text-gray-400">Краткое описание шестого шаблона.</p>
+          <a href="template8.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img src="images/template8.jpg" alt="Preview Template 8" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template8.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+      <!-- Пример строки с шаблоном №9 -->
+      <div class="border-b border-gray-700 py-4 flex items-center justify-between" data-aos="fade-up" data-aos-delay="800">
+        <div>
+          <h3 class="text-lg font-semibold">Template 9</h3>
+          <p class="text-sm text-gray-400">Краткое описание шестого шаблона.</p>
+          <a href="template9.html" class="text-blue-400 hover:underline text-sm">Подробнее</a>
+        </div>
+        <div class="flex items-center space-x-4">
+          <img src="images/template9.jpg" alt="Preview Template 9" class="h-16 w-16 object-cover rounded" />
+          <a href="templates/template9.zip" download class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded">Скачать</a>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Подключаем AOS JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+</html>

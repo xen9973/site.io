@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Скачать Программу</title>
+  <!-- Подключаем Animate.css для анимаций -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Подключаем Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+  <!-- Верхняя панель навигации с анимацией появления -->
+  <header class="bg-gray-800 border-b border-gray-700 px-6 py-4 flex items-center justify-between animate__animated animate__fadeInDown">
+    <div class="text-xl font-bold">Мой Сайт</div>
+    <nav class="space-x-6">
+      <a href="templates.html" class="text-gray-200 hover:text-white">Главная</a>
+      <a href="profile.html" class="text-gray-200 hover:text-white">Profile</a>
+      <a href="login.html" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-white">Log In</a>
+    </nav>
+  </header>
+
+  <!-- Основной контент -->
+  <main class="max-w-4xl mx-auto p-6">
+    <!-- Герой-блок (Hero section) с анимацией появления -->
+    <section class="text-center py-12 animate__animated animate__fadeInUp">
+      <h1 class="text-3xl md:text-5xl font-bold mb-4">Скачать Мою Программу</h1>
+      <p class="text-gray-400 max-w-2xl mx-auto mb-8">
+        Описание программы, её преимущества и краткая информация, зачем её скачивать.
+      </p>
+      <a
+        href="downloads/my_program.exe"
+        download
+        class="inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded text-lg transition transform"
+      >
+        Скачать
+      </a>
+    </section>
+
+    <!-- Блок «Преимущества / Особенности» с задержкой анимации -->
+    <section class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 animate__animated animate__fadeInUp animate__delay-1s">
+      <div class="bg-gray-800 p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold mb-2">Быстрая работа</h2>
+        <p class="text-gray-400 text-sm">
+          Программа оптимизирована для быстрого отклика и высокой производительности.
+        </p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold mb-2">Удобный интерфейс</h2>
+        <p class="text-gray-400 text-sm">
+          Интуитивно понятный дизайн для лёгкого освоения и комфортного использования.
+        </p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded shadow hover:shadow-lg transition">
+        <h2 class="text-xl font-semibold mb-2">Безопасность</h2>
+        <p class="text-gray-400 text-sm">
+          Современные методы защиты данных и шифрования для вашей безопасности.
+        </p>
+      </div>
+    </section>
+
+    <!-- Дополнительная секция с инструкцией с задержкой анимации -->
+    <section class="mt-12 text-center animate__animated animate__fadeInUp animate__delay-2s">
+      <h2 class="text-2xl font-bold mb-4">Как начать работу</h2>
+      <ol class="text-gray-400 list-decimal list-inside space-y-2">
+        <li>Скачайте программу, нажав на кнопку выше.</li>
+        <li>Установите её, следуя инструкциям установщика.</li>
+        <li>Запустите программу и авторизуйтесь (если требуется).</li>
+        <li>Наслаждайтесь удобным функционалом!</li>
+      </ol>
+    </section>
+  </main>
+
+</body>
+</html>
